@@ -1,0 +1,54 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no,Corresponding action/justification to refactor the smell
+G22Trelo,com0.G22Trello,ConfigWeb,addCorsMappings,Long Statement,"The length of the statement ""registry.addMapping(""/**"").allowedOrigins(""http://localhost:3000"").allowedMethods(""GET""`""POST""`""PUT""`""DELETE"").allowedHeaders(""*"").allowCredentials(true);"" is 154.",10,"The addCorsMappings method is refactored so that this long statement is divided into multiple shorter statements, each on a new line, which looks clearer and easier to maintain."
+G22Trelo,com0.G22Trello,BoardServiceTest,testUpdateBoard_Valid,Magic Number,The method contains a magic number: 10,130,
+G22Trelo,com0.G22Trello,BoardServiceTest,testUpdateBoard_InValidBoard,Magic Number,The method contains a magic number: 5000,151,
+G22Trelo,com0.G22Trello,BoardServiceTest,testRemoveUserFromBoard_ValidUserAndBoard,Magic Number,The method contains a magic number: 2,198,
+G22Trelo,com0.G22Trello,BoardServiceTest,testDeleteBoard_Valid,Magic Number,The method contains a magic number: 12,233,
+G22Trelo,com0.G22Trello,BoardServiceTest,testDeleteBoard_InValidBoardID,Magic Number,The method contains a magic number: 10,253,
+G22Trelo,com0.G22Trello,TaskServiceTest,createTaskTest_Valid,Magic Number,The method contains a magic number: 2023,52,
+G22Trelo,com0.G22Trello,TaskServiceTest,createTaskTest_Valid,Magic Number,The method contains a magic number: 8,52,
+G22Trelo,com0.G22Trello,TaskServiceTest,createTaskTest_Valid,Magic Number,The method contains a magic number: 10,52,
+G22Trelo,com0.G22Trello,TaskServiceTest,createTaskTest_NullTaskName,Magic Number,The method contains a magic number: 7,71,
+G22Trelo,com0.G22Trello,TaskServiceTest,createTaskTest_DueDateValidation,Long Statement,"The length of the statement ""assertEquals(""Date enter is not Valid` due date needs to be after creation date""`result`""Please enter proper date` it should be after the task creation date"");"" is 159.",86,
+G22Trelo,com0.G22Trello,TaskServiceTest,createTaskTest_DueDateValidation,Magic Number,The method contains a magic number: 2021,86,
+G22Trelo,com0.G22Trello,TaskServiceTest,createTaskTest_DueDateValidation,Magic Number,The method contains a magic number: 8,86,
+G22Trelo,com0.G22Trello,TaskServiceTest,createTaskTest_DueDateValidation,Magic Number,The method contains a magic number: 30,86,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_Valid,Magic Number,The method contains a magic number: 5,101,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_Valid,Magic Number,The method contains a magic number: 2023,101,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_Valid,Magic Number,The method contains a magic number: 8,101,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_Valid,Magic Number,The method contains a magic number: 23,101,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_Valid,Magic Number,The method contains a magic number: 2023,101,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_Valid,Magic Number,The method contains a magic number: 7,101,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_Valid,Magic Number,The method contains a magic number: 31,101,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_InValidTask,Magic Number,The method contains a magic number: 100,127,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_InValidTask,Magic Number,The method contains a magic number: 2023,127,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_InValidTask,Magic Number,The method contains a magic number: 8,127,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_InValidTask,Magic Number,The method contains a magic number: 30,127,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_DueDateValidation,Long Statement,"The length of the statement ""assertEquals(""Date enter is not Valid` due date needs to be after creation date""`result`""Please enter proper date` it should be after the task creation date"");"" is 159.",150,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_DueDateValidation,Magic Number,The method contains a magic number: 2023,150,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_DueDateValidation,Magic Number,The method contains a magic number: 8,150,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_DueDateValidation,Magic Number,The method contains a magic number: 30,150,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_DueDateValidation,Magic Number,The method contains a magic number: 2022,150,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_DueDateValidation,Magic Number,The method contains a magic number: 8,150,
+G22Trelo,com0.G22Trello,TaskServiceTest,updateTaskTest_DueDateValidation,Magic Number,The method contains a magic number: 30,150,
+G22Trelo,com0.G22Trello,TaskServiceTest,changeTaskStatusTest_Valid,Magic Number,The method contains a magic number: 30,180,
+G22Trelo,com0.G22Trello,TaskServiceTest,changeTaskStatusTest_InValidTask,Magic Number,The method contains a magic number: 1000,204,
+G22Trelo,com0.G22Trello,TaskServiceTest,changeTaskStatusTest_NullStatus,Magic Number,The method contains a magic number: 31,221,
+G22Trelo,com0.G22Trello,TaskServiceTest,assignMemberValidTest,Magic Number,The method contains a magic number: 10,242,
+G22Trelo,com0.G22Trello,TaskServiceTest,assignMemberValidTest,Magic Number,The method contains a magic number: 2023,242,
+G22Trelo,com0.G22Trello,TaskServiceTest,assignMemberValidTest,Magic Number,The method contains a magic number: 7,242,
+G22Trelo,com0.G22Trello,TaskServiceTest,assignMemberValidTest,Magic Number,The method contains a magic number: 25,242,
+G22Trelo,com0.G22Trello,TaskServiceTest,assignMemberInValidUserTest,Magic Number,The method contains a magic number: 10,258,
+G22Trelo,com0.G22Trello,TaskServiceTest,assignMemberInValidUserTest,Magic Number,The method contains a magic number: 2023,258,
+G22Trelo,com0.G22Trello,TaskServiceTest,assignMemberInValidUserTest,Magic Number,The method contains a magic number: 7,258,
+G22Trelo,com0.G22Trello,TaskServiceTest,assignMemberInValidUserTest,Magic Number,The method contains a magic number: 25,258,
+G22Trelo,com0.G22Trello,UserServiceTest,signUpTest_InValidPassword,Long Statement,"The length of the statement ""assertEquals(""Invalid password. Password should have a minimum length of 8 characters`at least 1 uppercase character` 1 lowercase character` 1 number` and 1 special character.""`result`result);"" is 192.",62,
+G22Trelo,com0.G22Trello,WorkspaceServiceTest,updateWorkspaceTest_InValid,Magic Number,The method contains a magic number: 500,169,
+G22Trelo,com0.G22Trello.model,Board,Board,Long Parameter List,The method has 5 parameters. ,20,Cannot be refactored because the constructor is needed with 5 parameters to create the board and to test the board service method.Also the code smell is not causing any actual problem. 
+G22Trelo,com0.G22Trello.model,Task,Task,Long Parameter List,The method has 9 parameters. ,46,Deleted the constructor because the constructor with 9 parameters was unnecessary in the Task class.
+G22Trelo,com0.G22Trello.model,Task,Task,Long Parameter List,The method has 5 parameters. ,59,Deleted the constructor because the constructor with 5 parameters was unnecessary in the Task class.
+G22Trelo,com0.G22Trello.model,Task,Task,Long Parameter List,The method has 6 parameters. ,69,Deleted the constructor because the constructor with 6 parameters was unnecessary in the Task class.
+G22Trelo,com0.G22Trello.model,Task,Task,Long Parameter List,The method has 6 parameters. ,80,Deleted the constructor because the constructor with 6 parameters was unnecessary in the Task class.
+G22Trelo,com0.G22Trello.model,User,User,Long Parameter List,The method has 9 parameters. ,58,Deleted the constructor because the constructor with 9 parameters was unnecessary in the User class.
+G22Trelo,com0.G22Trello.service,UserService,signUp,Long Statement,"The length of the statement ""return ""Invalid password. Password should have a minimum length of 8 characters`at least 1 uppercase character` 1 lowercase character` 1 number` and 1 special character."";"" is 171.",42,"Created an ErrorMessages class under the tool folder to store long sentences, and use to call where needed."
+G22Trelo,com0.G22Trello.service,UserService,validatePassword,Magic Number,The method contains a magic number: 8,106,"Set the final int MIN_PASSWORD_LENGTH at the top of the class, and then call it in the method"

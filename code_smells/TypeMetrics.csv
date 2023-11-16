@@ -1,0 +1,25 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+G22Trelo,com0.G22Trello,ConfigWeb,0,0,1,1,5,1,0,0,-1.0,0,0,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\ConfigWeb.java,7
+G22Trelo,com0.G22Trello,G22TreloApplication,0,0,1,1,5,1,0,0,-1.0,0,0,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\G22TreloApplication.java,7
+G22Trelo,com0.G22Trello,BoardServiceTest,6,0,10,9,117,10,0,0,0.3,0,6,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\test\java\com0\G22Trello\BoardServiceTest.java,32
+G22Trelo,com0.G22Trello,G22TreloApplicationTests,0,0,1,0,4,1,0,0,-1.0,0,0,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\test\java\com0\G22Trello\G22TreloApplicationTests.java,6
+G22Trelo,com0.G22Trello,TaskServiceTest,3,0,12,12,131,12,0,0,0.16666666666666666,0,5,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\test\java\com0\G22Trello\TaskServiceTest.java,32
+G22Trelo,com0.G22Trello,UserServiceTest,4,0,14,5,116,14,0,0,0.21428571428571427,0,5,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\test\java\com0\G22Trello\UserServiceTest.java,28
+G22Trelo,com0.G22Trello,WorkspaceServiceTest,4,0,13,13,191,13,0,0,0.46153846153846156,0,6,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\test\java\com0\G22Trello\WorkspaceServiceTest.java,34
+G22Trelo,com0.G22Trello.controller,BoardController,1,0,6,6,23,6,0,0,0.0,0,2,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\controller\BoardController.java,11
+G22Trelo,com0.G22Trello.controller,HomeController,0,0,1,1,5,1,0,0,-1.0,0,0,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\controller\HomeController.java,6
+G22Trelo,com0.G22Trello.controller,TaskController,1,0,4,4,15,4,0,0,0.0,0,2,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\controller\TaskController.java,15
+G22Trelo,com0.G22Trello.controller,UserController,1,0,6,6,21,6,0,0,0.0,0,2,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\controller\UserController.java,13
+G22Trelo,com0.G22Trello.controller,WorkspaceController,1,0,5,5,18,5,0,0,0.0,0,2,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\controller\WorkspaceController.java,12
+G22Trelo,com0.G22Trello.model,Board,8,0,19,19,75,19,0,0,0.2631578947368421,6,1,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\model\Board.java,8
+G22Trelo,com0.G22Trello.model,Task,10,0,25,25,109,25,0,0,0.08,3,1,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\model\Task.java,13
+G22Trelo,com0.G22Trello.model,User,12,0,28,28,108,28,0,0,0.21428571428571427,8,0,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\model\User.java,12
+G22Trelo,com0.G22Trello.model,Workspace,5,0,15,15,57,15,0,0,0.2,5,1,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\model\Workspace.java,9
+G22Trelo,com0.G22Trello.repository,BoardRepository,0,0,0,0,2,0,0,0,-1.0,2,0,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\repository\BoardRepository.java,7
+G22Trelo,com0.G22Trello.repository,TaskRepository,0,0,0,0,2,0,0,0,-1.0,3,0,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\repository\TaskRepository.java,7
+G22Trelo,com0.G22Trello.repository,UserRepository,0,0,1,0,3,1,0,0,-1.0,7,0,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\repository\UserRepository.java,9
+G22Trelo,com0.G22Trello.repository,WorkspaceRepository,0,0,1,0,3,1,0,0,-1.0,3,0,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\repository\WorkspaceRepository.java,10
+G22Trelo,com0.G22Trello.service,BoardService,2,0,9,9,102,18,0,0,0.0,2,4,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\service\BoardService.java,19
+G22Trelo,com0.G22Trello.service,TaskService,2,0,8,8,78,17,0,0,0.0,2,4,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\service\TaskService.java,30
+G22Trelo,com0.G22Trello.service,UserService,2,0,9,8,94,22,0,0,0.2222222222222222,4,2,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\service\UserService.java,18
+G22Trelo,com0.G22Trello.service,WorkspaceService,2,0,10,10,113,22,0,0,0.0,2,4,C:\git\csci3130\group22 saved 2\group22\backend\.\G22Trelo\src\main\java\com0\G22Trello\service\WorkspaceService.java,17

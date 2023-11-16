@@ -1,0 +1,17 @@
+image: maven:latest
+
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+    - cd backend/G22Trelo
+    - mvn clean compile
+
+test:
+  stage: test
+  script:
+    - cd backend/G22Trelo
+    - mvn clean test

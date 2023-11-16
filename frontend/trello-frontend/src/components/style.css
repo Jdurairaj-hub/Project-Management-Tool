@@ -1,0 +1,68 @@
+.dropdown{
+    width: 15%;
+    justify-content: left;
+    color: inherit;
+}
+.userField{
+    width: 10em;
+}
+
+
+.righthand{
+    display: inline-flex;
+    margin-left: auto;
+    gap: 1em;
+}
+.addUser{
+    margin: 10em;
+}
+
+.workspaceInput{
+    display: inline-flex;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.BoardInput{
+    display: inline-block;
+    width: 200%;
+    padding-left: 3%;
+    margin:auto;
+}
+.BoardButton{
+    height: 3em;
+
+}
+
+.boardHead{
+    display: inline-flex;
+    width: 50%;
+    padding: 1em;
+}
+.boardDrop{
+    padding: 10em;
+    display: flex;
+}
+.boardAdd{
+    float: right;
+}
+BoardInput{
+    width: 30%;
+}
+
+
+.boardHead h2{
+    color: antiquewhite;
+    padding-right: 2em;
+}
+
+.tempList{
+    width: 25%;
+    height: 15em;
+    background-color: cadetblue;
+    background-blend-mode: lighten;
+    margin: 1em;
+    padding: 1em;
+    display: inline-flex;
+
+}
