@@ -1,4 +1,4 @@
-# Trello-Clone-Release-2
+# Project Management Tool
 
 This project has been created as a requirement for the release-2 deliverable in the CSCI 3130 course
 
